@@ -1,0 +1,61 @@
+*, *::before, *::after {
+  font-weight: normal;
+  box-sizing: border-box;
+}
+
+body, input, textarea, select, option, button, label {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Droid Sans", "Helvetica Neue", sans-serif;
+  font-size: 100%;
+}
+
+body {
+  color: #222;
+  background-color: #fff;
+}
+
+h1 {
+  margin: 0 0 0.2em 0;
+}
+
+fieldset {
+  border: 0 none;
+}
+
+button {
+  padding: 0 1em;
+  margin: 0 1em;
+}
+
+table {
+  margin: 1em auto;
+}
+
+th, td {
+  padding: 0.1em 0.5em;
+}
+
+th {
+  font-weight: bold;
+  text-align: right;
+}
+
+td {
+  text-align: center;
+}
+
+#error {
+  color: #c00;
+  text-align: center;
+}
+
+#resultPerf,#resultAcces,#resultBestPract,#resultSeo,#resultPerfMobile,#resultAccesMobile,#resultBestPractMobile,#resultSeoMobile,#tableauPageTest, #status, #error {
+  display: none;
+}
+
+#resultPerf.active,#resultAcces.active,#resultBestPract.active,#resultSeo.active,#resultPerfMobile.active,#resultAccesMobile.active,#resultBestPractMobile.active,#resultSeoMobile.active,#tableauPageTest.active {
+  display: block;
+}
+
+#status.active, #error.active {
+  display: block;
+}
